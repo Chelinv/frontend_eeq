@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_BASE = import.meta.env.PROD ? 'https://backend-eeq-9.onrender.com' : '/api';
+const API_BASE = import.meta.env.PROD ? 'https://backend-eeq-10.onrender.com' : '/api';
 const API_URL = `${API_BASE}/clientes/`;
 
 
